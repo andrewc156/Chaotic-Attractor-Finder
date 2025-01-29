@@ -33,7 +33,7 @@ while found < n:
             conv = True
             break
 
-        if abs(x - xnew) < 1e-1 and abs(x - ynew) < 1e-10:
+        if abs(x - xnew) < 1e-10 and abs(x - ynew) < 1e-10:
             conv = True
             break
 
